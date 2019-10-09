@@ -11,7 +11,7 @@ int main()
         cin>>arr[i];
     cout<<"enter no of rotations :";
     cin>>k;
-    while((k%n)!=0)
+    while((k%n)!=0)                 //(k%n) is done to avoid time complexity
     {
         temp=arr[n-1];
         for(int i=n-2;i>=0;i--)
