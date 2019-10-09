@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream>                                 //Rotating the Array in Group
 using namespace std;
 int main()
 {
