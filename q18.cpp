@@ -14,7 +14,7 @@ int main()
     cout<<"enter ending of range : ";
     cin>>e;
     int l=0,r=n-1,ub,lb,mid;
-    while(l<r)
+    while(l<r)                       //Using Binary Search
     {
         mid=((l+r)/2);
         if(arr[mid]>=s)
