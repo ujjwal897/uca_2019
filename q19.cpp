@@ -6,7 +6,7 @@ int main()
     cout<<"enter a number : ";
     cin>>n;
     int sq,mid,l=0,r=n-1,ans;
-    while(l<r)
+    while(l<r)         //Using Binary Search           
     {
         mid=((l+r)/2);
         sq=(mid+1)*(mid+1);
