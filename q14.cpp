@@ -16,7 +16,7 @@ int main()
     for(int i=0;i<n;i++)
         cin>>arr2[i];
     int x=m<n?m:n,res[x],k=0,i=0,j=0;
-    while(i<m && j<n)
+    while(i<m && j<n)                        //Using Concept of two pointers
     {
         if(arr2[j]>arr1[i])
             i++;
