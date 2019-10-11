@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int m,n;
+    int m,n;                //taking two variables for size of arrays
     cout<<"enter size of first array : ";
     cin>>m;
     int arr1[m];
