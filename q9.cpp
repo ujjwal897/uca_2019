@@ -13,7 +13,7 @@ int main()
     for(int i=1;i<n;i++)
     {
         a=sum+arr[i];
-        if(a>arr[i])
+        if(a>arr[i])                    //sum=a>arr[i]?a:arr[i]
             sum=a;
         else if(arr[i]>a)
             sum=arr[i];
